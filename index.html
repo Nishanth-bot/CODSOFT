@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="app">
+        <div class="calculator">
+            <div class="display"><span class="display-text">0</span></div>
+            <div class="calc-button-container">
+                <button type="button" id="calc-btn" onclick="AllClear()" class="calc-button">AC</button>
+                <button type="button" id="calc-btn" onclick="Delete()" class="calc-button">DEL</button>
+                <button type="button" id="calc-btn" onclick="AddToDisplay('^')" class="calc-button">^</button>
+                <button type="button" id="calc-btn" onclick="AddToDisplay('÷')" class="calc-button">÷</button>
+                <button type="button" id="calc-btn" onclick="AddToDisplay('7')" class="calc-button">7</button>
+                <button type="button" id="calc-btn" onclick="AddToDisplay('8')" class="calc-button">8</button>
+                <button type="button" id="calc-btn" onclick="AddToDisplay('9')" class="calc-button">9</button>
+                <button type="button" id="calc-btn" onclick="AddToDisplay('+')" class="calc-button">+</button>
+                <button type="button" id="calc-btn" onclick="AddToDisplay('4')" class="calc-button">4</button>
+                <button type="button" id="calc-btn" onclick="AddToDisplay('5')" class="calc-button">5</button>
+                <button type="button" id="calc-btn" onclick="AddToDisplay('6')" class="calc-button">6</button>
+                <button type="button" id="calc-btn" onclick="AddToDisplay('–')" class="calc-button">–</button>
+                <button type="button" id="calc-btn" onclick="AddToDisplay('1')" class="calc-button">1</button>
+                <button type="button" id="calc-btn" onclick="AddToDisplay('2')" class="calc-button">2</button>
+                <button type="button" id="calc-btn" onclick="AddToDisplay('3')" class="calc-button">3</button>
+                <button type="button" id="calc-btn" onclick="AddToDisplay('×')" class="calc-button">×</button>
+                <button type="button" id="calc-btn" onclick="AddToDisplay('%')" class="calc-button">%</button>
+                <button type="button" id="calc-btn" onclick="AddToDisplay('0')" class="calc-button">0</button>
+                <button type="button" id="calc-btn" onclick="AddToDisplay('.')" class="calc-button">.</button>
+                <button type="button" id="calc-btn" onclick="Evaluator()" class="calc-button">=</button>
+                
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
